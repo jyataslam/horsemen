@@ -31,7 +31,11 @@ const Header = () => {
 
   return (
     <Main className={sticky ? "scrolled" : null}>
-      <Container fluid className="height-100">
+      <Container
+        fluid
+        className="height-100"
+        style={{ "padding-left": "0", "padding-right": "0" }}
+      >
         <Row className="height-100">
           <Col
             xs={12}

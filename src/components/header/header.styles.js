@@ -14,7 +14,7 @@ export const Main = styled.div`
   transition: all 0.3s ease-in-out;
 
   &.scrolled {
-    background: #2c2c2ccc;
+    background: #2c2c2cf6;
   }
 `
 
