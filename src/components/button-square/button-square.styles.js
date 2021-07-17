@@ -15,7 +15,7 @@ export const Button = styled.div`
   &:after {
     content: "";
     position: absolute;
-    width: 4px;
+    width: 2px;
     height: 100%;
     right: 0;
     top: 0;
@@ -35,7 +35,7 @@ export const Button = styled.div`
   span {
     z-index: 1;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
     color: white;
   }

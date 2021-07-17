@@ -5,6 +5,7 @@ export const Main = styled.div`
   width: 100vw;
   position: relative;
   background: black;
+  z-index: 2;
 
   & .hero {
     position: absolute !important;

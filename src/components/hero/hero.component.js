@@ -1,11 +1,13 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 
 import ButtonSquare from "../button-square/button-square.component"
 import Video from "../video/video.component"
+
+import posterImage from "../../images/particles-compressed.jpg"
+import HeroVideo from "../../videos/particles-compressed.mp4"
 
 import { Main, HeroTitleText } from "./hero.styles"
 
@@ -38,7 +40,7 @@ const Hero = () => {
 
   return (
     <Main className="d-flex flex-direction-col justify-content-center align-items-center">
-      <Video />
+      <Video posterImage={posterImage} videoSrc={HeroVideo} />
       <Container>
         <Row>
           <Col

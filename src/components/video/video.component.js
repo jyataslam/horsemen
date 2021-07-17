@@ -2,10 +2,7 @@ import React from "react"
 
 import { VideoMain } from "./video.styles"
 
-import posterImage from "../../images/particles-compressed.jpg"
-import HeroVideo from "../../videos/particles-compressed.mp4"
-
-const Video = () => {
+const Video = ({ posterImage, videoSrc, ...props }) => {
   return (
     <VideoMain
       poster={posterImage}
@@ -14,8 +11,9 @@ const Video = () => {
       autoPlay
       muted="true"
       playsInline
+      {...props}
     >
-      <source src={HeroVideo} type="video/mp4" />
+      <source src={videoSrc} type="video/mp4" />
     </VideoMain>
   )
 }

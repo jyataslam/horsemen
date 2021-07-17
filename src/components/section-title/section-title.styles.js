@@ -19,7 +19,7 @@ export const Main = styled.div`
 export const Title = styled.h1`
   text-transform: uppercase;
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 1rem;
 
   ${getAlignmentStyles}
@@ -30,6 +30,8 @@ export const Description = styled.p`
   font-weight: 700;
   text-transform: uppercase;
   color: #b10000;
+  font-size: 20px;
+  margin-bottom: 1rem;
 
   ${getAlignmentStyles}
 `
