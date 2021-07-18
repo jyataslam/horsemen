@@ -1,6 +1,14 @@
 import styled from "styled-components"
 
 export const Main = styled.section`
+  background: #2c2c2c;
+  color: white;
+  padding-top: 60px;
+  color: initial;
+  border-top: 5px solid #b10000;
+`
+
+export const ServicesMain = styled.section`
   position: relative;
   padding: 100px 0;
   z-index: 2;
@@ -9,6 +17,12 @@ export const Main = styled.section`
 
   @media screen and (max-width: 800px) {
     padding-bottom: 2rem;
+  }
+
+  & .button {
+    max-width: 200px;
+    margin-top: 2rem;
+    margin-left: unset;
   }
 `
 
@@ -27,6 +41,16 @@ export const AboutParagraph = styled.p`
   }
 `
 
+export const AboutParagraphTwo = styled.p`
+  font-weight: 300;
+  padding-top: 1rem;
+  color: #8b999e;
+
+  &:first-child {
+    padding-top: 2rem;
+  }
+`
+
 export const ImageContainer = styled.div`
   position: absolute;
   padding: 0;
@@ -35,7 +59,6 @@ export const ImageContainer = styled.div`
   right: 0;
   width: 50%;
   height: 100%;
-  border-left: 5px solid #b10000;
 
   div {
     height: 100%;
@@ -48,5 +71,28 @@ export const ImageContainer = styled.div`
     height: 320px;
     border: none;
     margin-top: 2rem;
+  }
+`
+export const ImageContainerTwo = styled.div`
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+
+  div {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 800px) {
+    position: static;
+    width: 100%;
+    height: 320px;
+    border: none;
+    margin-top: 2rem;
+    order: 2;
   }
 `

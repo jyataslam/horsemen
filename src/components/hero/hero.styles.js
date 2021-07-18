@@ -18,6 +18,14 @@ export const Main = styled.div`
 
   & .logo {
     width: 700px;
+
+    @media screen and (max-width: 800px) {
+      width: 500px;
+    }
+
+    @media screen and (max-width: 550px) {
+      width: 300px;
+    }
   }
 
   & .button {
