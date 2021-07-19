@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Matt Carmichael",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.0.2",
     "gatsby": "^3.9.1",
     "gatsby-background-image": "^1.5.3",

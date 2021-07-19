@@ -5,6 +5,6 @@ export const Main = styled.section`
   padding: 0;
   display: flex;
   position: relative;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 `

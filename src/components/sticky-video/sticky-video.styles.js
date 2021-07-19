@@ -53,10 +53,34 @@ export const StickyMain = styled.div`
         opacity: 1;
         position: absolute;
         width: auto;
-        height: 200px;
-        bottom: 55%;
+        height: 140px;
+        bottom: 67%;
         left: 50%;
         transform: translate(-50%, -50%);
+      }
+
+      & h2 {
+        opacity: 1;
+        position: relative;
+        color: white;
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 62%;
+        left: 50%;
+        padding-bottom: 1rem;
+        transform: translate(-50%, -50%);
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 15%;
+          height: 2px;
+          background: #b10000;
+          width: 70%;
+        }
       }
 
       & svg {
@@ -77,13 +101,31 @@ export const StickyMain = styled.div`
 
       .heading-container {
         font-size: 40px;
+        font-weight: 400;
         text-align: center;
         position: absolute;
         color: white;
-        bottom: 20%;
+        top: 61%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin: 0;
+
+        h2 {
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+
+        li {
+          font-weight: 300;
+          font-size: 1rem;
+          text-align: left;
+        }
+
+        p {
+          line-height: 1.6;
+          padding-bottom: 1rem;
+          text-align: left;
+        }
       }
     }
   }

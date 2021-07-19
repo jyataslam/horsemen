@@ -30,8 +30,8 @@ const About = () => {
         <Row>
           <Col lg={6} md={12} className="padding-right">
             <SectionTitle
-              title="horsemen's service assurance"
-              desc="We've got you covered"
+              title="client-centric investigation"
+              desc="horsemen ride together"
               textAlignLeft
             />
             <AboutParagraph>

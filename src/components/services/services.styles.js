@@ -3,9 +3,7 @@ import styled from "styled-components"
 export const Main = styled.section`
   background: #2c2c2c;
   color: white;
-  padding-top: 60px;
   color: initial;
-  border-top: 5px solid #b10000;
 `
 
 export const ServicesMain = styled.section`
@@ -30,7 +28,7 @@ export const AboutParagraph = styled.p`
   font-weight: 300;
   padding-top: 1rem;
   padding-right: 5rem;
-  color: #8b999e;
+  color: #9eaeb4;
 
   &:first-child {
     padding-top: 2rem;
@@ -44,7 +42,7 @@ export const AboutParagraph = styled.p`
 export const AboutParagraphTwo = styled.p`
   font-weight: 300;
   padding-top: 1rem;
-  color: #8b999e;
+  color: #9eaeb4;
 
   &:first-child {
     padding-top: 2rem;

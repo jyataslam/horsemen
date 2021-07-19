@@ -49,34 +49,30 @@ const StickyVideo = () => {
                         alt="horseman logo"
                         className="logo"
                       />
+                      <h2>Tailored To Your Needs</h2>
                     </div>
                   </Tween>
                   <Timeline
                     target={
                       <div className="heading">
                         <div className="heading-container">
-                          <h2>Guarding Your Investment</h2>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Natus quam ullam veritatis cum ad similique
-                            voluptatibus a alias pariatur commodi, numquam nemo
-                            delectus neque, quas quisquam, quaerat saepe in
-                            odio.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Natus quam ullam veritatis cum ad similique
-                            voluptatibus a alias pariatur commodi, numquam nemo
-                            delectus neque, quas quisquam, quaerat saepe in
-                            odio.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Doloribus obcaecati eligendi consequatur vel
-                            amet voluptatum ullam nemo deleniti doloremque
-                            dolores maiores autem dolorum, vero et laborum
-                            quasi! Architecto, veniam laboriosam!
-                          </p>
+                          <h2>For Professionals</h2>
+                          <ul>
+                            <li>
+                              Adjusters/Claims Representatives (Insurance
+                              Companies)
+                            </li>
+                            <li>Risk Managers</li>
+                            <li>HR Managers</li>
+                            <li>Attorneys/Law Firms</li>
+                            <li>
+                              Government Entities (City, County, State,
+                              Districts [school, etc], agencies)
+                            </li>
+                            <li>Investigation Companies</li>
+                            <li>Real Estate Agents</li>
+                            <li>Insurance Agents</li>
+                          </ul>
                         </div>
                       </div>
                     }
@@ -88,28 +84,10 @@ const StickyVideo = () => {
                     target={
                       <div className="heading">
                         <div className="heading-container">
-                          <h2>Another Headline Here</h2>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Natus quam ullam veritatis cum ad similique
-                            voluptatibus a alias pariatur commodi, numquam nemo
-                            delectus neque, quas quisquam, quaerat saepe in
-                            odio.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Natus quam ullam veritatis cum ad similique
-                            voluptatibus a alias pariatur commodi, numquam nemo
-                            delectus neque, quas quisquam, quaerat saepe in
-                            odio.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Doloribus obcaecati eligendi consequatur vel
-                            amet voluptatum ullam nemo deleniti doloremque
-                            dolores maiores autem dolorum, vero et laborum
-                            quasi! Architecto, veniam laboriosam!
-                          </p>
+                          <h2>For Individuals</h2>
+                          <ul>
+                            <li>Home Buyers/Sellers</li>
+                          </ul>
                         </div>
                       </div>
                     }
@@ -121,28 +99,12 @@ const StickyVideo = () => {
                     target={
                       <div className="heading">
                         <div className="heading-container">
-                          <h2>And Another One Here</h2>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Natus quam ullam veritatis cum ad similique
-                            voluptatibus a alias pariatur commodi, numquam nemo
-                            delectus neque, quas quisquam, quaerat saepe in
-                            odio.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Natus quam ullam veritatis cum ad similique
-                            voluptatibus a alias pariatur commodi, numquam nemo
-                            delectus neque, quas quisquam, quaerat saepe in
-                            odio.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Doloribus obcaecati eligendi consequatur vel
-                            amet voluptatum ullam nemo deleniti doloremque
-                            dolores maiores autem dolorum, vero et laborum
-                            quasi! Architecto, veniam laboriosam!
-                          </p>
+                          <h2>Unique Scenarios</h2>
+                          <ul>
+                            <li>Cargo Theft</li>
+                            <li>Sales Route Verification</li>
+                            <li>Unique Situation 3</li>
+                          </ul>
                         </div>
                       </div>
                     }
