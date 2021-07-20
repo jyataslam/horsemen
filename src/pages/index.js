@@ -9,6 +9,8 @@ import Guarantee from "../components/guarantee/guarantee.component"
 import Services from "../components/services/services.component"
 import ServicesList from "../components/services-list/services-list.component"
 import Areas from "../components/areas/areas.component"
+import TeamJumbo from "../components/team-jumbo/team-jumbo.component"
+import InvestigationAction from "../components/investigation-action-section/investigation-action.component"
 
 const IndexPage = () => {
   return (
@@ -21,6 +23,8 @@ const IndexPage = () => {
       <Services />
       <ServicesList />
       <Areas />
+      <TeamJumbo />
+      <InvestigationAction />
     </Layout>
   )
 }

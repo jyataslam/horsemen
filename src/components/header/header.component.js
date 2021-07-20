@@ -54,7 +54,7 @@ const Header = () => {
                 <Link>contact</Link>
               </div>
               <InvestigationButtonContainer>
-                <InvestigationButton>refer</InvestigationButton>
+                <InvestigationButton>start investigation</InvestigationButton>
               </InvestigationButtonContainer>
             </LinksContainer>
           </Col>

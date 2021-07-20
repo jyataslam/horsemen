@@ -51,6 +51,11 @@ export const FlexContainer = styled.div`
 export const TextContainer = styled.div`
   width: 60%;
   padding-right: 3rem;
+
+  & .button {
+    max-width: 200px;
+    margin: 3rem auto 0 0;
+  }
 `
 
 export const Headline = styled.h2`
@@ -69,7 +74,7 @@ export const Headline = styled.h2`
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 1px;
+    height: 2px;
     background: #b10000;
   }
 

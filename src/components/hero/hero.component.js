@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 
@@ -12,32 +11,6 @@ import HeroVideo from "../../videos/particles-compressed.mp4"
 import { Main, HeroTitleText } from "./hero.styles"
 
 const Hero = () => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        bgImage: file(relativePath: { eq: "hero_chess.jpeg" }) {
-          id
-          childImageSharp {
-            fluid(quality: 90, maxWidth: 4160) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-        videoImg: file(relativePath: { eq: "video-screengrab.jpg" }) {
-          id
-          childImageSharp {
-            fluid(quality: 90, maxWidth: 4160) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    `
-  )
-
-  const heroImage = data.bgImage.childImageSharp.fluid
-  const videoImage = data.videoImg.childImageSharp.fluid
-
   return (
     <Main className="d-flex flex-direction-col justify-content-center align-items-center">
       <Video posterImage={posterImage} videoSrc={HeroVideo} />

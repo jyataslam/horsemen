@@ -5,6 +5,7 @@ import BackgroundImage from "gatsby-background-image"
 import { StaticImage } from "gatsby-plugin-image"
 
 import HeadlineCenter from "../headline-center/headline-center.component"
+import ButtonSquare from "../button-square/button-square.component"
 
 import {
   Main,
@@ -74,6 +75,7 @@ const Areas = () => {
                       Disability, Property Loss & Liability, Longshore,
                       Casualty, Auto and other lines of insurance.
                     </Text>
+                    <ButtonSquare title="learn more" />
                   </TextContainer>
                   <StaticImage
                     src="../../images/service-areas-map.jpg"
