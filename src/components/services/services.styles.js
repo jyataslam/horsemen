@@ -28,7 +28,7 @@ export const AboutParagraph = styled.p`
   font-weight: 300;
   padding-top: 1rem;
   padding-right: 5rem;
-  color: #9eaeb4;
+  color: #999fa1;
 
   &:first-child {
     padding-top: 2rem;
@@ -42,7 +42,7 @@ export const AboutParagraph = styled.p`
 export const AboutParagraphTwo = styled.p`
   font-weight: 300;
   padding-top: 1rem;
-  color: #9eaeb4;
+  color: #999fa1;
 
   &:first-child {
     padding-top: 2rem;

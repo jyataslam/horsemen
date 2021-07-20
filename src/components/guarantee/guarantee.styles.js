@@ -39,7 +39,7 @@ export const Header = styled.h2`
 `
 
 export const Text = styled.p`
-  color: #cfe2e9;
+  color: #d5dde0;
   font-weight: 300;
   padding-bottom: 1.25rem;
 `
@@ -58,7 +58,7 @@ export const TextAndImageContainer = styled.div`
 
 export const TextContainer = styled.p`
   width: 50%;
-  color: #cfe2e9;
+  color: #d5dde0;
   font-weight: 300;
   padding-bottom: 1.25rem;
 `

@@ -8,6 +8,7 @@ import VideoSection from "../components/video-section/video-section.component"
 import Guarantee from "../components/guarantee/guarantee.component"
 import Services from "../components/services/services.component"
 import ServicesList from "../components/services-list/services-list.component"
+import Areas from "../components/areas/areas.component"
 
 const IndexPage = () => {
   return (
@@ -19,6 +20,7 @@ const IndexPage = () => {
       <Guarantee />
       <Services />
       <ServicesList />
+      <Areas />
     </Layout>
   )
 }
