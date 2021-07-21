@@ -29,7 +29,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo
-        title="Home"
+        title="Horsemen Investigations"
         description="Horsemen Investigations is a full service investigation company, specializing in investigating insurance fraud and in minimizing risk exposure."
         image={seoImg}
       />
