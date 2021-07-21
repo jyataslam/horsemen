@@ -43,8 +43,18 @@ export const FlexContainer = styled.div`
   display: flex;
   margin-top: 5rem;
 
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+
   & .map-img {
     width: 40%;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      order: 1;
+      margin-bottom: 5rem;
+    }
   }
 `
 
@@ -55,6 +65,11 @@ export const TextContainer = styled.div`
   & .button {
     max-width: 200px;
     margin: 3rem auto 0 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    order: 2;
   }
 `
 

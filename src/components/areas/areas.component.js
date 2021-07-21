@@ -56,8 +56,8 @@ const Areas = () => {
               <Col sm={12}>
                 <FlexContainer>
                   <TextContainer>
-                    <Headline>where we ride</Headline>
-                    <Text>
+                    <Headline data-aos="fade-up">where we ride</Headline>
+                    <Text data-aos="fade-up">
                       Proudly, Horsemen Investigations has built a reputation in
                       the insurance fraud industry as a lead provider of
                       services which are considered “Best in Class.” We retain
@@ -69,8 +69,8 @@ const Areas = () => {
                       success at gathering field intelligence in the western
                       region than Horsemen.
                     </Text>
-                    <Headline>claims supported</Headline>
-                    <Text>
+                    <Headline data-aos="fade-up">claims supported</Headline>
+                    <Text data-aos="fade-up">
                       Workers’ Compensation, Personal & Bodily Injury, Life &
                       Disability, Property Loss & Liability, Longshore,
                       Casualty, Auto and other lines of insurance.

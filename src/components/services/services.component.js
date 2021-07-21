@@ -46,7 +46,7 @@ const Services = () => {
                 desc="Unrivaled Expertise"
                 textAlignLeft
               />
-              <AboutParagraph>
+              <AboutParagraph data-aos="fade-up">
                 Proudly, Horsemen Investigations has built a reputation in the
                 insurance fraud industry as a lead provider of services which
                 are considered “Best in Class.” We retain the most comprehensive
@@ -57,7 +57,7 @@ const Services = () => {
                 expertise or success at gathering field intelligence in the
                 western region than Horsemen.
               </AboutParagraph>
-              <AboutParagraph>
+              <AboutParagraph data-aos="fade-up">
                 Allow us to personalize our services to meet your unique needs.
               </AboutParagraph>
               <ButtonSquare title="learn more" />
@@ -80,12 +80,12 @@ const Services = () => {
                 desc="tagline two"
                 textAlignLeft
               />
-              <AboutParagraphTwo>
+              <AboutParagraphTwo data-aos="fade-up">
                 Horsemen Investigations is a full service investigation company,
                 specializing in investigating insurance fraud and in minimizing
                 risk exposure.
               </AboutParagraphTwo>
-              <AboutParagraphTwo>
+              <AboutParagraphTwo data-aos="fade-up">
                 We are a leader in providing investigative services for
                 insurance fraud in the Western Region because of our unique and
                 distinct attributes. We possess the most comprehensive regional

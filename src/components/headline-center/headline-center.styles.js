@@ -39,4 +39,30 @@ export const Title = styled.h1`
     margin-left: 25px;
     top: 50%;
   }
+
+  @media screen and (max-width: 800px) {
+    font-size: 2.5rem;
+
+    &:before,
+    &:after {
+      width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: 2.3rem;
+
+    &:before,
+    &:after {
+      width: 20px;
+    }
+
+    &:before {
+      margin-right: 10px;
+    }
+
+    &:after {
+      margin-left: 10px;
+    }
+  }
 `

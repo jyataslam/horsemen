@@ -634,3 +634,6 @@ p {
 .bg-red {
   background-color: #990000;
 }
+[data-aos=fade-up] {
+  transform: translate3d(0,20px,0)
+}

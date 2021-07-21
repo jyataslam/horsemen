@@ -4,7 +4,7 @@ import { Button } from "./button-square.styles"
 
 const ButtonSquare = ({ title }) => {
   return (
-    <Button className="button">
+    <Button className="button" data-aos="fade-up">
       <span>{title}</span>
     </Button>
   )

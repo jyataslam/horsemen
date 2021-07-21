@@ -55,6 +55,16 @@ export const Main = styled.section`
     font-size: 3.5rem;
     padding-right: 1.5rem;
     z-index: 1;
+
+    @media screen and (max-width: 800px) {
+      font-size: 2.5rem;
+    }
+
+    @media screen and (max-width: 550px) {
+      font-size: 2rem;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
   }
 
   & .arrow {
@@ -62,5 +72,16 @@ export const Main = styled.section`
     width: 100px;
     filter: invert(1);
     transition: all 0.5s ease-in-out;
+
+    @media screen and (max-width: 800px) {
+      height: 65px;
+      width: 65px;
+    }
+
+    @media screen and (max-width: 550px) {
+      height: 100%;
+      width: 55px;
+      right: 2.6rem;
+    }
   }
 `

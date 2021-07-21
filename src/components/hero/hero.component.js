@@ -19,6 +19,7 @@ const Hero = () => {
           <Col
             xs={12}
             className="d-flex flex-direction-col justify-content-center align-items-center"
+            data-aos="fade-in"
           >
             <StaticImage
               src="../../images/logo-large-min.png"

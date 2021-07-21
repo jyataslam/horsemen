@@ -59,11 +59,31 @@ const Footer = () => {
           <Col lg={4} sm={12}>
             <LinkHeader>Add Us On Social</LinkHeader>
             <SocialContainer>
-              <SocialIcon url="https://www.facebook.com/pg/HorsemenInc/" />
-              <SocialIcon url="https://twitter.com/horsemeninc" />
-              <SocialIcon url="https://www.instagram.com/horsemeninvestigations/" />
-              <SocialIcon url="https://www.linkedin.com/company/horsemen-investigations" />
-              <SocialIcon url="https://www.youtube.com/channel/UCnfMBrT3VvvRfhTvz9Cs2Ng" />
+              <SocialIcon
+                url="https://www.facebook.com/pg/HorsemenInc/"
+                bgColor="transparent"
+                fgColor="#d1cece"
+              />
+              <SocialIcon
+                url="https://twitter.com/horsemeninc"
+                bgColor="transparent"
+                fgColor="#d1cece"
+              />
+              <SocialIcon
+                url="https://www.instagram.com/horsemeninvestigations/"
+                bgColor="transparent"
+                fgColor="#d1cece"
+              />
+              <SocialIcon
+                url="https://www.linkedin.com/company/horsemen-investigations"
+                bgColor="transparent"
+                fgColor="#d1cece"
+              />
+              <SocialIcon
+                url="https://www.youtube.com/channel/UCnfMBrT3VvvRfhTvz9Cs2Ng"
+                bgColor="transparent"
+                fgColor="#d1cece"
+              />
             </SocialContainer>
           </Col>
         </Row>

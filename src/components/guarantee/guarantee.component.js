@@ -43,7 +43,7 @@ const Guarantee = () => {
               <Header>Guarding Your Investment</Header>
             </Col>
             <Col lg={{ span: 8, offset: 2 }} md={12}>
-              <Text>
+              <Text data-aos="fade-up">
                 Horsemen’s investigative approach is highly client centric; we
                 are self-driven by our own commitment to excellence and deep
                 passion to succeed at meeting your case specific needs! No other
@@ -51,7 +51,7 @@ const Guarantee = () => {
                 do their results compare!
               </Text>
               <TextAndImageContainer>
-                <TextContainer>
+                <TextContainer data-aos="fade-up">
                   We are a lead provider of investigative services to the
                   insurance fraud industry in both California and Hawaii because
                   of our unique and distinct attributes – we possess the most
@@ -63,14 +63,18 @@ const Guarantee = () => {
                   times and you can expect higher levels of consistent and
                   unrivaled performance!
                 </TextContainer>
-                <StaticImage src="../../images/aicpa.png" className="aicpa" />
+                <StaticImage
+                  src="../../images/aicpa.png"
+                  className="aicpa"
+                  data-aos="fade-up"
+                />
               </TextAndImageContainer>
             </Col>
             <Col sm={12}>
               <Header>How Do We Guard Your Investment?</Header>
             </Col>
             <Col lg={{ span: 8, offset: 2 }} md={12}>
-              <Text>
+              <Text data-aos="fade-up">
                 At Horsemen, you have our service assurance – we’ll achieve all
                 your case specific objectives at <span>Zero Risk</span> and with{" "}
                 <span>No Service Compromise!</span>

@@ -34,12 +34,12 @@ const About = () => {
               desc="horsemen ride together"
               textAlignLeft
             />
-            <AboutParagraph>
+            <AboutParagraph data-aos="fade-up">
               Horsemen Investigations is a full service investigation company,
               specializing in investigating insurance fraud and in minimizing
               risk exposure.
             </AboutParagraph>
-            <AboutParagraph>
+            <AboutParagraph data-aos="fade-up">
               We are a leader in providing investigative services for insurance
               fraud in the Western Region because of our unique and distinct
               attributes. We possess the most comprehensive regional network of

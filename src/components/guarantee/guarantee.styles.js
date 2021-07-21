@@ -35,6 +35,10 @@ export const Header = styled.h2`
 
   &:last-child {
     padding-top: 100px;
+
+    @media screen and (max-width: 550px) {
+      padding-top: 40px;
+    }
   }
 `
 
@@ -50,9 +54,20 @@ export const TextAndImageContainer = styled.div`
   & .aicpa {
     width: 50%;
 
+    @media screen and (max-width: 550px) {
+      width: 100%;
+      order: 1;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+
     img {
       object-fit: contain !important;
     }
+  }
+
+  @media screen and (max-width: 550px) {
+    flex-direction: column;
   }
 `
 
@@ -61,4 +76,9 @@ export const TextContainer = styled.p`
   color: #d5dde0;
   font-weight: 300;
   padding-bottom: 1.25rem;
+
+  @media screen and (max-width: 550px) {
+    width: 100%;
+    order: 2;
+  }
 `

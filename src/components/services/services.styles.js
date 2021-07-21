@@ -34,6 +34,10 @@ export const AboutParagraph = styled.p`
     padding-top: 2rem;
   }
 
+  @media screen and (max-width: 1024px) {
+    padding-right: 2rem;
+  }
+
   @media screen and (max-width: 800px) {
     padding-right: 0;
   }

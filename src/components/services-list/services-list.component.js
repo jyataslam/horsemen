@@ -52,56 +52,111 @@ const ServicesList = () => {
               sm={12}
               className="d-flex flex-wrap justify-content-center align-items-center"
             >
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Serveillance (Sub Rosa)</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Strategic Interviewing</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>DOI Certified Training</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Scene Investigation</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Verifications</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Legal Support</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Digital Support</IndividualHeader>
                 <IndividualDesc>
                   Brief description of above service goes here.
                 </IndividualDesc>
               </Col>
-              <Col lg={4} md={6} sm={12} className="individual-service-col">
+              <Col
+                lg={4}
+                md={6}
+                sm={12}
+                className="individual-service-col"
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Consulting</IndividualHeader>
                 <IndividualDesc>

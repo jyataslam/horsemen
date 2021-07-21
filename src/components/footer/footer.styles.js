@@ -34,6 +34,11 @@ export const LinkContainer = styled.div`
       color: white;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
 `
 
 export const LinkHeader = styled.span`

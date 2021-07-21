@@ -42,4 +42,10 @@ export const HeroTitleText = styled.h3`
   padding: 0;
   color: white;
   z-index: 1;
+  text-align: center;
+
+  @media screen and (max-width: 550px) {
+    padding-top: 6px;
+    font-size: 18px;
+  }
 `
