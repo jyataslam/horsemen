@@ -3,11 +3,13 @@ module.exports = {
     title: `Horsemen Investigations`,
     description: `Horsemen Investigations is a full service investigation agency specializing in Worker's Compensation and Liability investigations.`,
     author: `@horsemeninc`,
-    siteUrl: `https://horsemeninc.com`,
+    siteUrl: `https://horsemen.netlify.app`,
+    image: `src/images/horsemen-hero-bg-min.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `babel-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

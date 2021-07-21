@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title }) {
+function Seo({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,6 +19,7 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             author
+            image
           }
         }
       }
@@ -27,6 +28,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const defaultImage = image || site.siteMetadata.image
 
   return (
     <Helmet
@@ -49,6 +51,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: defaultImage,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
@@ -68,6 +74,9 @@ function Seo({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+        },
       ].concat(meta)}
     />
   )
@@ -76,7 +85,7 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Horsemen Investigations is a full service investigation company, specializing in investigating insurance fraud and in minimizing risk exposure.`,
 }
 
 Seo.propTypes = {

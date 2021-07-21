@@ -71,7 +71,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="100"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Strategic Interviewing</IndividualHeader>
@@ -85,7 +84,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="200"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>DOI Certified Training</IndividualHeader>
@@ -99,7 +97,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="300"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Scene Investigation</IndividualHeader>
@@ -113,7 +110,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="400"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Verifications</IndividualHeader>
@@ -127,7 +123,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="500"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Legal Support</IndividualHeader>
@@ -141,7 +136,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="600"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Digital Support</IndividualHeader>
@@ -155,7 +149,6 @@ const ServicesList = () => {
                 sm={12}
                 className="individual-service-col"
                 data-aos="fade-up"
-                data-aos-delay="700"
               >
                 <ServiceImage src={cameraPNG} />
                 <IndividualHeader>Consulting</IndividualHeader>

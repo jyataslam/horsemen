@@ -16,6 +16,8 @@ import Areas from "../components/areas/areas.component"
 import TeamJumbo from "../components/team-jumbo/team-jumbo.component"
 import InvestigationAction from "../components/investigation-action-section/investigation-action.component"
 
+import seoImg from "../images/horsemen-hero-bg-min.jpg"
+
 const IndexPage = () => {
   useEffect(() => {
     AOS.init({
@@ -26,7 +28,11 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo
+        title="Home"
+        description="Horsemen Investigations is a full service investigation company, specializing in investigating insurance fraud and in minimizing risk exposure."
+        image={seoImg}
+      />
       <Hero />
       <About />
       <VideoSection />
