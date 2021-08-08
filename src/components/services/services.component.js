@@ -20,7 +20,7 @@ const Services = () => {
   const data = useStaticQuery(
     graphql`
       query {
-        matt: file(relativePath: { eq: "matt.jpg" }) {
+        matt: file(relativePath: { eq: "hero_chess.jpeg" }) {
           id
           childImageSharp {
             fluid(quality: 90, maxWidth: 4160) {
